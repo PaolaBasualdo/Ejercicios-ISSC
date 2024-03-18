@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0befe4; /* Fondo celeste pastel */
+}
+
+.contenedor {
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Color de texto negro */
+}
