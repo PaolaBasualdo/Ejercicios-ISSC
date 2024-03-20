@@ -1,0 +1,67 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(55, 61, 55);
+}
+
+.encabezado {
+    background-image: url('./media/Cordoba-Puente-895x600.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-superpuesto {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+}
+
+.texto-superpuesto h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+.contenedor {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+
+.columna {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2; 
+}
+
+
+@media screen and (max-width: 1024px) {
+    .columna {
+        width: calc(50% - 20px);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .columna {
+        width: calc(100% - 20px);
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .columna {
+        width: calc(100% - 20px);
+    }
+}

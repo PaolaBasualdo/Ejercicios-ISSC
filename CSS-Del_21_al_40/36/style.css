@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(55, 61, 55)!important; 
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+.imagen {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.imagen:hover img {
+    transform: scale(1.2);
+}

@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(42, 44, 42)!important; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 50%;
+    background-color: rgb(149, 150, 149); 
+    margin: 50px auto;
+}
+
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c333d9;
+    color: #cdc8c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+}

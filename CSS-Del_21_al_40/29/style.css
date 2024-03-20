@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(42, 44, 42)!important; 
+}
+
+
+form {
+    background-color: #e4dfdf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contenedor {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(149, 150, 149);
+}

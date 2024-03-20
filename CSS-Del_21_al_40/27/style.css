@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(42, 44, 42)!important; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 50%;
+    text-align: left;
+    background-color: rgb(149, 150, 149); 
+    margin: 50px auto;
+}
+
+ul {
+    list-style: circle; 
+    font-family: "Gothic", sans-serif; 
+    font-size: 20px; 
+    
+}

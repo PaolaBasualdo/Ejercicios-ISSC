@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(55, 61, 55)!important; 
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #b99797;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 50%;
+    background-color: rgb(149, 150, 149); 
+    margin: 50px auto;}

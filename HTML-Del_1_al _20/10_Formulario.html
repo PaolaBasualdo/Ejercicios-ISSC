@@ -1,0 +1,32 @@
+<!--10. Agrega un formulario con un campo de texto y un botón de envío.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Formulario</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/paoladeembalse@gmail.com" method="POST" onsubmit="return validarFormulario();">
+        
+        <h2>Completa tus Datos</h2><br><hr><br>
+        <label for="nombre">Nombre:</label>
+        <input class= "input" type="text" id="nombre" name="nombre" required> 
+        <label for="apellido">Apellido:</label>
+        <input class= "input" type="text" id="apellido" name="apellido" required><br><br>
+  
+        <label for="tel">Teléfono:</label>
+        <input class="input" type="tel" id="tel" name="tel">
+  
+        <label for="email">E-mail:</label>
+        <input class="input" type="email" id="email" name="email" required><br><br>
+  
+        <label for="comentario">Comentario:</label><br>
+        <textarea class="input" id="comentario" name="comentario" rows="7" cols="40"></textarea><br><br>    
+               
+        <button type="submit" class="input" id="enviar">Enviar</button>
+        
+      </form>
+    
+</body>
+</html>

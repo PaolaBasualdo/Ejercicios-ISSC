@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(55, 61, 55); 
+}
+.contenedor {
+    margin: 60px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.columna {
+    width: 48%; 
+    border: 1px solid #ccc;
+    background-color: #f2f2f2; 
+
+}
+.columna h2 {
+    text-align: center;
+}
+.columna p {
+    margin: 10px; 
+}
+
+

@@ -1,0 +1,45 @@
+<!--29. Estiliza un formulario de contacto con diferentes colores de fondo para los campos de
+    entrada y un botón personalizado.
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 29</title>
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    <div class="contenedor">
+        <form action="https://formsubmit.co/paoladeembalse@gmail.com" method="POST" onsubmit="return validarFormulario();">
+            <h2>Completa tus Datos</h2>
+            <hr>
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="campo">
+                <label for="tel">Teléfono:</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campo">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="7" cols="40"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
