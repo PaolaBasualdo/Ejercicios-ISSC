@@ -1,0 +1,1 @@
+/*77. Define un objeto con información de productos, como nombres y precios. Utiliza un bucle `for...in` para mostrar los nombres y precios de los productos en la consola.*/
